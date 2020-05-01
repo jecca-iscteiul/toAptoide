@@ -9,6 +9,7 @@ public class NumCurto {
 	}
 	
 	public int start(int[] array) {
+		System.out.println("Start");
 		int resposta=array[0];
 		for(int i=1; i!= array.length;i++) {
 			if(array[i] < resposta) {
